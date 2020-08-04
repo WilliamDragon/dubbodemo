@@ -9,7 +9,7 @@ public class DemoServiceCilent {
         context.start();
         DemoService demoService = (DemoService) context.getBean("demoService"); // get remote service proxy
 
-        demoService.sayHello();
-
+        //demoService.sayHello();
+        System.out.println(demoService.sayHello2("syaysya"));
     }
 }
